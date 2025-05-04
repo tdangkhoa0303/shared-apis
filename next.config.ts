@@ -10,7 +10,7 @@ const nextConfig: NextConfig = {
           { key: 'Access-Control-Allow-Credentials', value: 'false' },
           {
             key: 'Access-Control-Allow-Origin',
-            value: 'https://vyandkhoa.wedding/',
+            value: '*',
           },
           {
             key: 'Access-Control-Allow-Methods',
