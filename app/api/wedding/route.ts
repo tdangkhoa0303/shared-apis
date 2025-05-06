@@ -34,8 +34,8 @@ export async function POST(request: NextRequest) {
           },
         ],
       },
-      '+1': {
-        checkbox: !!formValues.plusOne,
+      'Number of attendees': {
+        number: Number(formValues.numberOfAttendees),
       },
     },
   });
