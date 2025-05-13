@@ -5,7 +5,7 @@ const nextConfig: NextConfig = {
   async headers() {
     return [
       {
-        source: '/api/wedding',
+        source: '/api/wedding/:path*',
         headers: [
           { key: 'Access-Control-Allow-Credentials', value: 'false' },
           {
